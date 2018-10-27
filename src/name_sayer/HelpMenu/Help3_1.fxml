@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyReleased="#onKeyReleased" prefHeight="800" prefWidth="1200" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="name_sayer.HelpMenu.Help3_1Controller">
+    <children>
+        <ImageView fx:id="imageView" fitHeight="438.0" fitWidth="656.0" layoutX="272.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Resources/PracticeMenu2.png" />
+         </image></ImageView>
+        <Button fx:id="nextButton" alignment="CENTER" layoutX="1090.0" layoutY="719.0" mnemonicParsing="false" onAction="#onClick" prefHeight="61.0" prefWidth="90.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" text="→" textFill="#1e3799">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Button fx:id="previousButton" alignment="CENTER" layoutX="20.0" layoutY="719.0" mnemonicParsing="false" onAction="#onClick" prefHeight="61.0" prefWidth="90.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" text="←" textFill="#1e3799">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+        <Label alignment="CENTER" layoutX="392.0" layoutY="60.0" prefHeight="67.0" prefWidth="416.0" text="Names Menu (2/3)" textFill="#0c2461">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+        <Button fx:id="homeButton" alignment="CENTER" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#onClick" prefHeight="61.0" prefWidth="223.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" text="Back to Menu" textFill="#1e3799">
+            <font>
+                <Font size="27.0" />
+            </font>
+        </Button>
+      <Button fx:id="help1Button" layoutX="468.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" />
+      <Button fx:id="help2Button" layoutX="508.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" />
+      <Button fx:id="help3Button" layoutX="548.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" />
+      <Button fx:id="help4Button" layoutX="588.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" />
+      <Button fx:id="help5Button" layoutX="628.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" />
+      <Button fx:id="help6Button" layoutX="668.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" />
+      <Button fx:id="help7Button" layoutX="708.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-background-insets: -3; -fx-border-color: #1e3799; -fx-border-radius: 30; -fx-border-insets: -3; -fx-border-width: 2;" />
+      <Polygon fill="#ffffff00" layoutX="321.0" layoutY="265.0" points="-20.0, -39.0, 134.0, -39.0, 134.0, -61.0, -20.0, -61.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+      <Polygon fill="#ffffff00" layoutX="330.0" layoutY="272.0" points="52.0, 263.0, 104.0, 263.0, 104.0, 237.0, 52.0, 237.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+      <Polygon fill="#ffffff00" layoutX="340.0" layoutY="282.0" points="-6.0, 283.0, 82.0, 283.0, 82.0, 257.0, -6.0, 257.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+      <Polygon fill="#ffffff00" layoutX="340.0" layoutY="282.0" points="179.0, -55.0, 371.0, -55.0, 371.0, -77.0, 179.0, -77.0" stroke="RED" strokeType="INSIDE" strokeWidth="2.0" />
+      <Label layoutX="14.0" layoutY="173.0" prefHeight="65.0" prefWidth="250.0" text="Type here to search for names in the database list" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="464.0" layoutY="589.0" prefHeight="91.0" prefWidth="303.0" text="After selecting one or more names from the database list, click this button to add them to the practice list" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="595.0" layoutY="665.0" prefHeight="91.0" prefWidth="303.0" text="You can also double click on names to add them one at a time" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="936.0" layoutY="288.0" prefHeight="65.0" prefWidth="250.0" text="Type in a full name here and press the '+' button to add it to the practice list" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="598.0" prefHeight="113.0" prefWidth="364.0" text="When a name from either the database list or the practice list is selected after being played, click this button to rate the quality of the recording" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Line endX="68.0" endY="-95.0" layoutX="233.0" layoutY="307.0" startX="22.0" startY="-106.0" stroke="RED" strokeWidth="2.0" />
+      <Line endX="128.0" endY="258.0" layoutX="233.0" layoutY="307.0" startX="78.0" startY="305.0" stroke="RED" strokeWidth="2.0" />
+      <Line endX="202.0" endY="227.0" layoutX="231.0" layoutY="306.0" startX="251.0" startY="288.0" stroke="RED" strokeWidth="2.0" />
+      <Line endX="477.0" endY="-93.0" layoutX="233.0" layoutY="307.0" startX="709.0" startY="-5.0" stroke="RED" strokeWidth="2.0" />
+      <Label layoutX="938.0" layoutY="360.0" prefHeight="65.0" prefWidth="250.0" text="You can also press 'Enter' on the keyboard to add the name" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
