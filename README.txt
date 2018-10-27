@@ -2,6 +2,8 @@
           Welcome to the NameSayer README                 
 =====================================================
 
+This application was created along with GitHub user william-shin-387
+
 WHAT IS NAMESAYER?
 
 NameSayer is a pronunciation tool dedicated towards users who wish to practice the pronunciation of names.
